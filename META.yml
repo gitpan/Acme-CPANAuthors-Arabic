@@ -1,0 +1,22 @@
+---
+name: Acme-CPANAuthors-Arabic
+version: 0.01
+author:
+  - 'Ahmad M. Zawawi <ahmad.zawawi@gmail.com>'
+abstract: We are the Arabic-speaking CPAN authors
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Acme::CPANAuthors: 0.04
+  perl: 5.008
+build_requires:
+  Test::More: 0
+provides:
+  Acme::CPANAuthors::Arabic:
+    file: lib/Acme/CPANAuthors/Arabic.pm
+    version: 0.01
+generated_by: Module::Build version 0.33
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
